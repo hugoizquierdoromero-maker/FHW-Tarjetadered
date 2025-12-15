@@ -1,0 +1,83 @@
+# FHW-TarjetaRed
+Trabajo de investigación sobre el periférico: Tarjeta de Red (NIC).
+
+## Tabla de Contenidos
+1. [Definición del Periférico](#1-definición-del-periférico)
+2. [Características Principales](#2-características-principales)
+3. [Tipos](#3-tipos)
+4. [Ejemplos Comerciales](#4-ejemplos-comerciales)
+5. [Conclusiones](#5-conclusiones)
+6. [Referencias, Autores y Licencia](#6-referencias-autores-y-licencia)
+
+---
+
+## 1. Definición del Periférico
+
+La **Tarjeta de Red** (también conocida como NIC - *Network Interface Card*) es un componente de hardware que conecta una computadora a una red informática y permite la comunicación con otros equipos. Actúa como el intermediario físico y lógico entre el ordenador y el medio de transmisión (cable o ondas).
+
+![Imagen de una Tarjeta de Red](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Network_card.jpg/640px-Network_card.jpg)
+*(Nota: Sustituir esta imagen por una propia o libre de derechos si se desea)*
+
+---
+
+## 2. Características Principales
+
+Las características fundamentales que definen el rendimiento de una tarjeta de red son:
+
+* **Velocidad de transmisión:** Medida en Mbps o Gbps (ej. 100 Mbps, 1 Gbps, 10 Gbps). Define qué tan rápido viajan los datos.
+* **Tipo de conexión (Bus):** Cómo se conecta a la placa base (PCIe, USB) o si está integrada.
+* **Dirección MAC:** Identificador único de 48 bits asignado por el fabricante para identificar el dispositivo en la red física.
+* **Duplex:** Capacidad de enviar y recibir datos. *Full-Duplex* (ambos sentidos a la vez) o *Half-Duplex* (un sentido a la vez).
+
+---
+
+## 3. Tipos
+
+Podemos clasificar las tarjetas de red principalmente por su medio de transmisión y su instalación:
+
+### A. Según el medio
+1.  **Ethernet (Alámbricas):** Utilizan cables RJ45. Son más estables y rápidas.
+2.  **Wi-Fi (Inalámbricas):** Utilizan ondas de radio. Ofrecen movilidad pero pueden tener más latencia.
+3.  **Fibra Óptica:** Utilizadas en servidores de alto rendimiento para velocidades extremas.
+
+### B. Según la conexión
+1.  **PCI / PCIe:** Se insertan dentro del ordenador en la placa base.
+2.  **USB:** Externas y portátiles, fáciles de instalar.
+3.  **Integradas:** Vienen soldadas directamente en la placa base del equipo.
+
+---
+
+## 4. Ejemplos Comerciales
+
+A continuación, analizamos dos ejemplos reales del mercado actual:
+
+### Ejemplo A: TP-Link Archer TX50E (PCIe)
+* **Tipo:** Inalámbrica / Bluetooth.
+* **Características:** Utiliza el estándar **Wi-Fi 6** (AX3000), lo que permite menor latencia y mayor velocidad (hasta 2402 Mbps en 5 GHz).
+* **Uso:** Ideal para *gaming* o streaming 4K debido a su disipador de calor y alta estabilidad.
+
+### Ejemplo B: Intel Gigabit CT Desktop Adapter (Ethernet)
+* **Tipo:** Alámbrica RJ45.
+* **Características:** Conexión Gigabit (10/100/1000 Mbps). Utiliza el chipset Intel 82574L.
+* **Uso:** Enfocada en entornos profesionales o servidores caseros que requieren una conexión 24/7 sin cortes.
+
+---
+
+## 5. Conclusiones
+
+La tarjeta de red ha evolucionado desde ser un periférico de lujo hasta convertirse en un componente esencial e integrado en casi todos los dispositivos modernos. La tendencia actual marca una transición hacia velocidades multigigabit (2.5G y 10G) en el entorno doméstico y la adopción masiva del Wi-Fi 7, buscando eliminar la diferencia de rendimiento entre las conexiones por cable y las inalámbricas.
+
+---
+
+## 6. Referencias, Autores y Licencia
+
+### Autores
+* **[TU NOMBRE AQUÍ]** - *Investigación y Documentación*
+
+### Referencias
+* Tanenbaum, A. S. (2013). *Redes de computadoras*. Pearson Educación.
+* TP-Link Official Site. *Especificaciones Archer TX50E*.
+* Intel Ark. *Product Specifications for Intel Ethernet*.
+
+### Licencia
+Este proyecto está bajo la Licencia **MIT** - ver el archivo [LICENSE](LICENSE) para más detalles.
